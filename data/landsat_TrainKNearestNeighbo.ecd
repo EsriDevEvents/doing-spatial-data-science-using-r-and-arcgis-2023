@@ -1,0 +1,44 @@
+{
+  "EsriClassifierDefinitionFile" : 0,
+  "FileVersion" : 3,
+  "NumberDefinitions" : 1,
+  "Definitions" : [
+    {
+      "Classifier" : "kNN",
+      "NumberClasses" : 2,
+      "RasterIsSegmented" : false,
+      "NumberBands" : 3,
+      "Classes" : [
+        {
+          "ClassValue" : 10,
+          "ClassName" : "Water",
+          "Red" : 84,
+          "Green" : 117,
+          "Blue" : 168
+        },
+        {
+          "ClassValue" : 17,
+          "ClassName" : "NewVegetation",
+          "Red" : 78,
+          "Green" : 169,
+          "Blue" : 31
+        }
+      ],
+      "TrainingSampleFile" : "train_samples_CA",
+      "Raster1" : "landsat",
+      "MaxNumSamplesPerClass" : 1000,
+      "CrossValidationRate" : 0.54326923076923084,
+      "kNN_Param" : 3,
+      "kNN_NumSamples" : 51,
+      "kNN_BlockWidth" : 8,
+      "kNN_BlockHeight" : 7,
+      "kNN_BlockDepth" : 4,
+      "SizeOfByteArray" : 470,
+      "MaxStringSizeUsed" : 1024,
+      "NumberOfStrings" : 1,
+      "ByteArrayAsArrayOfStrings" : [
+        "TGVyYzIgBgAAALCQF6oHAAAACAAAAAQAAAAzAAAACAAAANYBAAAHAAAAAAAAAAABAAAAAAAAAADgPwAAAAAAAAAAAAAAAODN5EAAAAAAAAAAAAAAAAAAAAAACAAAAPr__wEA4ACAAAAAAADO3UAAAAAAQErcQAAAAAAA4rhAAAAAAAAAAAAAAAAAIPDjQAAAAADgzeRAAAAAAAC63kAAAAAAAADwPwDBOHeOMwnW3Jhfhp_RhluRCk0N8SL75LrpWMIEANCMRVpJKPmnMS4_UgLuBUh1bk9bTGUtikQ8SwypF5kYdpdQBOJ5g1bSyYYBKRJ8Z4KFVHaBfmUH9Q7SIAyK-nEPAMEpcY4zIg_sw_JAVocRUmJUYxwETld0NKVYLAi4QXfhj5IUwyPeUNI90Y01L5J0iR0AlRTlSpxRdqOvGlVNkSQkoJw6zSNZIxVOFpZWdFfHZDba13qSrVlMAMCUUZsAweIYjzMRBhSLkKUdk4cQK8wvHA4PmWPF2QLKEFcoNMg0kB1EmSLH-EXlEH2gg9QwyCIYj-kEi0RssaCIogAAkgr2iroDCkORgv2wi2gmWhsbGzIHKgb-Yn1JWtw5DMS1h4HBSQDBAACBM2Wtsf7_fwcA"
+      ]
+    }
+  ]
+}

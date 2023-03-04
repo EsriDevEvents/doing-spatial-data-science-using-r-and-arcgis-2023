@@ -1,0 +1,108 @@
+{
+  "origin" : {
+    "x" : -2210387.24699999951,
+    "y" : 1842692.35659999913,
+    "spatialReference" : {
+      "wkt" : "PROJCS[\"Albers_Conical_Equal_Area\",GEOGCS[\"GCS_North_American_1983\",DATUM[\"D_North_American_1983\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Albers\"],PARAMETER[\"false_easting\",0.0],PARAMETER[\"false_northing\",0.0],PARAMETER[\"central_meridian\",-96.0],PARAMETER[\"standard_parallel_1\",29.5],PARAMETER[\"standard_parallel_2\",45.5],PARAMETER[\"latitude_of_origin\",23.0],UNIT[\"Meter\",1.0]]"
+    }
+  },
+  "extent" : {
+    "xmin" : -2210387.24699999951,
+    "ymin" : 1556342.35659999913,
+    "xmax" : -1930187.24699999951,
+    "ymax" : 1842692.35659999913,
+    "spatialReference" : {
+      "wkt" : "PROJCS[\"Albers_Conical_Equal_Area\",GEOGCS[\"GCS_North_American_1983\",DATUM[\"D_North_American_1983\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Albers\"],PARAMETER[\"false_easting\",0.0],PARAMETER[\"false_northing\",0.0],PARAMETER[\"central_meridian\",-96.0],PARAMETER[\"standard_parallel_1\",29.5],PARAMETER[\"standard_parallel_2\",45.5],PARAMETER[\"latitude_of_origin\",23.0],UNIT[\"Meter\",1.0]]"
+    }
+  },
+  "geodataXform" : {
+    "spatialReference" : {
+      "wkt" : "PROJCS[\"Albers_Conical_Equal_Area\",GEOGCS[\"GCS_North_American_1983\",DATUM[\"D_North_American_1983\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Albers\"],PARAMETER[\"false_easting\",0.0],PARAMETER[\"false_northing\",0.0],PARAMETER[\"central_meridian\",-96.0],PARAMETER[\"standard_parallel_1\",29.5],PARAMETER[\"standard_parallel_2\",45.5],PARAMETER[\"latitude_of_origin\",23.0],UNIT[\"Meter\",1.0]]"
+    },
+    "type" : "IdentityXform"
+  },
+  "LODInfos" : {
+    "resolutions" : [
+      1920,
+      960,
+      480,
+      240,
+      120,
+      60,
+      30
+    ],
+    "levels" : [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "scales" : [
+      7256678.3999999994,
+      3628339.1999999997,
+      1814169.5999999999,
+      907084.79999999993,
+      453542.39999999997,
+      226771.19999999998,
+      113385.59999999999
+    ],
+    "dpi" : 96,
+    "type" : "RasterLODInfos"
+  },
+  "blockWidth" : 256,
+  "blockHeight" : 256,
+  "bandCount" : 1,
+  "pixelType" : 3,
+  "pixelSizeX" : 30,
+  "pixelSizeY" : 30,
+  "format" : "Cache/LERC2D",
+  "compressionType" : "LERC",
+  "firstPyramidLevel" : 1,
+  "maximumPyramidLevel" : 6,
+  "packetSize" : 16,
+  "compressionQuality" : 100000,
+  "pyramidResamplingType" : 0,
+  "LERCError" : 0.10000000000000001,
+  "properties" : {
+    "KIND" : "IMAGE",
+    "BAND_COUNT" : "1",
+    "HAS_TABLE" : "0",
+    "HAS_XFORM" : "0",
+    "BandProperties" : [
+      {
+        "NoData" : "256",
+        "type" : "PropertySet"
+      }
+    ],
+    "DataType" : "Thematic",
+    "type" : "PropertySet"
+  },
+  "statistics" : [
+    {
+      "min" : 0,
+      "max" : 1,
+      "mean" : 0.97671310386526933,
+      "standardDeviation" : 0.15081318565625854,
+      "median" : 1,
+      "mode" : 1,
+      "skipX" : 1,
+      "skipY" : 1,
+      "count" : 62374779
+    }
+  ],
+  "histograms" : [
+    {
+      "size" : 2,
+      "min" : -0.5,
+      "max" : 1.5,
+      "counts" : [
+        1452515,
+        60922264
+      ]
+    }
+  ],
+  "type" : "RasterInfo"
+}
